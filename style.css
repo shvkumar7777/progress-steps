@@ -35,12 +35,12 @@ body{
     position: absolute;
     top: 50%;
     left: 0%;
-    background-color:   rgb(199, 199, 191);
+    background-color:rgb(199, 199, 191);
     width: 100%;
     height: 4px;
-    transform: rotateX(-50%);
-    z-index: -1;
-    transition: .4s ease;
+    transform:rotateX(-50%);
+    z-index:-1;
+    transition:.4s ease;
 }
 
 .progress{
