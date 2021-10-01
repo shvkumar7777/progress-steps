@@ -55,7 +55,11 @@ body{
     transition: .4s ease;
 }
 .circle{
+    height: 30px;
+    width: 30px;
     background: rgb(115, 134, 134);
-    padding: 10px;
-    border-radius: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
 }
