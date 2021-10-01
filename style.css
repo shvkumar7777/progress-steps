@@ -31,8 +31,19 @@ body{
     position: relative;
 }
 
-/* .circle{
+.progress{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color:   rgb(18, 16, 167);
+    width: 50%;
+    height: 4px;
+    transform: rotateX(-50%);
+    z-index: -1;
+    transition: .4s ease;
+}
+.circle{
     background: rgb(115, 134, 134);
-    padding: 15px;
-    border-radius: 50px;
-} */
+    padding: 10px;
+    border-radius: 70px;
+}
