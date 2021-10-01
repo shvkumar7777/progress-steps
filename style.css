@@ -47,8 +47,8 @@ body{
     position: absolute;
     top: 50%;
     left: 0%;
-    background-color:   rgb(18, 16, 167);
-    width: 50%;
+    background-color: rgb(132, 181, 236);
+    width: 20%;
     height: 4px;
     transform: rotateX(-50%);
     z-index: -1;
@@ -57,9 +57,37 @@ body{
 .circle{
     height: 30px;
     width: 30px;
-    background: rgb(115, 134, 134);
+    background: rgb(198, 209, 209);
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items:center;
+    border: 3px solid rgb(199, 199, 191);
+}
+
+.circle.active{
+    border-color: rgb(132, 181, 236);
+}
+
+.button{
+    padding: 10px 30px;
+    font-family: inherit;
+    background: rgb(132, 181, 236);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:active{
+    transform: scale(.98);
+}
+
+.button:focus{
+    outline: none;
+}
+.button:disabled{
+    background: rgb(198, 209, 209);
+    cursor: not-allowed;
+    opacity: .4;
 }
