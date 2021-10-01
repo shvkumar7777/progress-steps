@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 body{
+    font-family: Mulish,sans-serif;
+    font-weight: 200;
     margin: 0%;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.progress-container{
+    display: flex;
+}
+
+.circle{
+    background: rgb(115, 134, 134);
+    padding: 15px;
+    border-radius: 50px;
 }
