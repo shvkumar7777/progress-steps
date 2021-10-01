@@ -15,7 +15,7 @@ body{
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    background: rgb(233, 227, 227);
+    background: rgb(255, 255, 255);
 }
 
 .container{
@@ -29,6 +29,18 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
     position: relative;
+}
+.progress-container::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color:   rgb(199, 199, 191);
+    width: 100%;
+    height: 4px;
+    transform: rotateX(-50%);
+    z-index: -1;
+    transition: .4s ease;
 }
 
 .progress{
